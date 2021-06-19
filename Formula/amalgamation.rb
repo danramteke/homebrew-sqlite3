@@ -3,7 +3,7 @@ class Amalgamation < Formula
   homepage "https://sqlite.org/"
   url "https://www.sqlite.org/2021/sqlite-autoconf-3360000.tar.gz"
   version "3.36.0"
-  sha3 "fdc699685a20284cb72efe3e3ddfac58e94d8ffd5b229a8235d49265aa776678"
+  sha256 "fdc699685a20284cb72efe3e3ddfac58e94d8ffd5b229a8235d49265aa776678"
 
   depends_on "readline"
   uses_from_macos "zlib"
