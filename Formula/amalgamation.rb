@@ -49,3 +49,4 @@ class Amalgamation < Formula
     names = shell_output("#{bin}/sqlite3 < #{path}").strip.split("\n")
     assert_equal %w[Sue Tim Bob], names
   end
+end
